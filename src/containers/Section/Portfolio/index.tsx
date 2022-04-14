@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { SectionType } from "@/@types/containers/Section";
 import { Heading2 } from "@/components/Heading";
 import { Link } from "@/components/Link";
@@ -19,7 +18,7 @@ export function Portfolio({ id, title }: SectionType) {
               style={{ backgroundImage: `url(${item.banner})` }}
             >
               <div className={styles.hoverContent}>
-                <Image src={item.logo} alt={item.name} height="64" width="64" />
+                <img src={item.logo} alt={item.name} height="64" width="64" />
                 <strong>{item.name}</strong>
                 <Link text="Access Page" href={item.href} size="small" />
               </div>

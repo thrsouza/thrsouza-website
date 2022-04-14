@@ -1,27 +1,27 @@
 .contactSection {
-  padding: 96px 24px 48px !important;
+  padding: 6rem 1.5rem 1.5rem !important;
 
   > div > form > fieldset {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 64px 0;
+    margin: 4rem 0;
     width: 100%;
 
     > div {
       width: 100%;
-      margin: 4px 0;
+      margin: 0.25rem 0;
     }
 
     > button {
-      margin: 24px 0;
+      margin: 1.5rem 0;
     }
 
     > p {
       color: var(--secundary-color);
       text-align: center;
-      font-size: 18px;
-      margin-top: 8px;
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
 
       &.success {
         color: var(--success-color);

@@ -4,6 +4,7 @@ import { Heading1 } from "@/components/Heading";
 import { HeaderType } from "@/@types/containers/Header";
 
 import styles from "./styles.module.scss";
+import { MenuSvgIcon } from "@/components/SvgIcon";
 
 export function Header({ navigation }: HeaderType) {
   const [showMenu, setShowMenu] = useState<boolean>(false);
@@ -75,11 +76,12 @@ export function Header({ navigation }: HeaderType) {
         </nav>
         <button
           type="button"
+          aria-label="Menu"
           onClick={() => {
             setShowMenu(!showMenu);
           }}
         >
-          <i className="icon-menu" />
+          <MenuSvgIcon height={"1.75rem"} width={"1.75rem"} />
         </button>
       </div>
     </header>

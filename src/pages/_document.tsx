@@ -3,7 +3,7 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 export default class RoyalHouseDocument extends Document {
   render() {
     return (
-      <Html lang="notranslate">
+      <Html lang="en">
         <Head>
           <meta charSet="UTF-8" />
           <meta
@@ -13,6 +13,7 @@ export default class RoyalHouseDocument extends Document {
 
           <link rel="canonical" href="https://thiagosouza.com" />
           <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+          <link rel="manifest" href="manifest.webmanifest" />
 
           <meta name="application-name" content="Thiago Souza" />
           <meta name="apple-mobile-web-app-capable" content="yes" />

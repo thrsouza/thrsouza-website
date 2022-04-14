@@ -1,6 +1,7 @@
 import { ExpericenceDataType } from "@/@types/data/experience";
 import { SectionType } from "@/@types/containers/Section";
 import { Heading2 } from "@/components/Heading";
+import { SuitcaseSvgIcon } from "@/components/SvgIcon"
 
 import experieceData from "@/data/experience";
 
@@ -25,7 +26,7 @@ export function Experience({ id, title }: SectionType) {
         <div>
           <ul>
             {leftList.map((item, index) => (
-              <li key={index}>
+              <li key={index} data-icon={<SuitcaseSvgIcon />}>
                 <small>{item.period}</small>
                 <strong>{item.enterprise}</strong>
                 <span>{item.position}</span>

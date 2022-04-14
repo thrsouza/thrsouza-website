@@ -1,30 +1,31 @@
 import { SocialDataType } from "@/@types/data/social";
+import * as SvgIcon from "@/components/SvgIcon";
 
 const socialData = <SocialDataType[]>[
   {
     name: "Github",
-    icon: "icon-github",
     href: "https://github.com/thrsouza",
+    SvgIcon: SvgIcon.GithubSvgIcon,
   },
   {
     name: "Linkedin",
-    icon: "icon-linkedin",
     href: "https://www.linkedin.com/in/thrsouza",
+    SvgIcon: SvgIcon.LinkedinSvgIcon,
   },
   {
     name: "Google Play",
-    icon: "icon-playstore",
     href: "https://play.google.com/store/apps/dev?id=8865737054333441628",
+    SvgIcon: SvgIcon.GooglePlaySvgIcon,
   },
   {
     name: "YouTube",
-    icon: "icon-youtube",
     href: "https://www.youtube.com/channel/UCObFBuhVmi48ZHS07Li5h5A",
+    SvgIcon: SvgIcon.YoutubeSvgIcon,
   },
   {
     name: "Instagram",
-    icon: "icon-instagram",
     href: "https://www.instagram.com/thrsouza.sh",
+    SvgIcon: SvgIcon.InstagramSvgIcon,
   },
 ];
 

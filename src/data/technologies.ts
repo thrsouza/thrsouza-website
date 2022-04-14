@@ -1,33 +1,34 @@
 import { TechnologiesDataType } from "@/@types/data/technologies";
+import * as SvgIcon from "@/components/SvgIcon";
 
 const technologiesData = <TechnologiesDataType[]>[
   {
     name: "Flutter",
-    icon: "icon-flutter",
+    SvgIcon: SvgIcon.FlutterSvgIcon,
   },
   {
     name: "React",
-    icon: "icon-react",
+    SvgIcon: SvgIcon.ReactSvgIcon,
   },
   {
     name: "Node",
-    icon: "icon-nodejs",
+    SvgIcon: SvgIcon.NodeSvgIcon,
   },
   {
     name: ".NET C#",
-    icon: "icon-csharp",
+    SvgIcon: SvgIcon.CSharpSvgIcon,
   },
   {
     name: "AWS",
-    icon: "icon-aws",
+    SvgIcon: SvgIcon.AwsSvgIcon,
   },
   {
     name: "Firebase",
-    icon: "icon-firebase",
+    SvgIcon: SvgIcon.FirebaseSvgIcon,
   },
   {
     name: "Mongo",
-    icon: "icon-mongodb",
+    SvgIcon: SvgIcon.MongoSvgIcon,
   },
 ];
 

@@ -4,16 +4,16 @@
   text-decoration: none;
 
   &.small {
-    border-radius: 36px;
-    padding: 12px 24px;
-    font-size: 14px;
+    border-radius: 2rem;
+    padding: 1rem 1.5rem;
+    font-size: 0.92rem;
     font-weight: 700;
   }
 
   &.large {
-    border-radius: 36px;
-    padding: 20px 44px;
-    font-size: 16px;
+    border-radius: 2rem;
+    padding: 1.25rem 3rem;
+    font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
   }
