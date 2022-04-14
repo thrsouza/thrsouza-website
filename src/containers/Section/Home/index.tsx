@@ -1,6 +1,7 @@
 import { SectionType } from "@/@types/containers/Section";
 import { Heading1 } from "@/components/Heading";
-import { TrademarkSvgIcon } from "@/components/SvgIcon";
+import { TrademarkSvgIcon } from "@/components/Svg/Icons";
+import { HeadlineSvgElement } from "@/components/Svg/Elements";
 
 import socialData from "@/data/social";
 
@@ -15,12 +16,10 @@ export function Home({ id }: SectionType) {
         width={"9rem"}
       />
       <Heading1 text="Thiago Souza" />
-      <img
-        src="/assets/images/banner/subtitle.svg"
-        alt="Full Stack Developer"
-        className={styles.subTitle}
-        height="34"
-        width="360"
+      <HeadlineSvgElement
+        className={styles.headline}
+        height={"2rem"}
+        width={"24.75rem"}
       />
       <ul>
         {socialData.map((item, index) => (

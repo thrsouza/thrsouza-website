@@ -1,5 +1,5 @@
 import { TechnologiesDataType } from "@/@types/data/technologies";
-import * as SvgIcon from "@/components/SvgIcon";
+import * as SvgIcon from "@/components/Svg/Icons";
 
 const technologiesData = <TechnologiesDataType[]>[
   {

@@ -1,7 +1,7 @@
 import { ExpericenceDataType } from "@/@types/data/experience";
 import { SectionType } from "@/@types/containers/Section";
 import { Heading2 } from "@/components/Heading";
-import { SuitcaseSvgIcon } from "@/components/SvgIcon"
+import { SuitcaseSvgIcon } from "@/components/Svg/Icons"
 
 import experieceData from "@/data/experience";
 

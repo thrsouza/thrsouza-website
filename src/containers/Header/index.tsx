@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import { Heading1 } from "@/components/Heading";
+import { MenuSvgIcon } from "@/components/Svg/Icons";
 
 import { HeaderType } from "@/@types/containers/Header";
 
 import styles from "./styles.module.scss";
-import { MenuSvgIcon } from "@/components/SvgIcon";
 
 export function Header({ navigation }: HeaderType) {
   const [showMenu, setShowMenu] = useState<boolean>(false);

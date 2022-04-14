@@ -1,5 +1,5 @@
 import { SocialDataType } from "@/@types/data/social";
-import * as SvgIcon from "@/components/SvgIcon";
+import * as SvgIcon from "@/components/Svg/Icons";
 
 const socialData = <SocialDataType[]>[
   {

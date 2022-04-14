@@ -1,22 +1,6 @@
-const withPlugins = require("next-compose-plugins");
-const withPWA = require("next-pwa");
-
-const nextConfig = withPlugins([
-  {
-    reactStrictMode: true,
-  },
-  [
-    withPWA,
-    {
-      pwa: {
-        disable: process.env.NODE_ENV === "development",
-        dest: "public",
-        register: true,
-        skipWaiting: true,
-        sw: "sw.js",
-      },
-    },
-  ],
-]);
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+};
 
 module.exports = nextConfig;

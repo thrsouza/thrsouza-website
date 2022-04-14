@@ -8,10 +8,9 @@
     color: var(--color-primary);
   }
 
-  > img.subTitle {
-    min-width: 18.5rem;
-    width: 22.5rem;
+  > svg.headline {
     margin: 1rem 0;
+    max-width: 96%;
   }
 
   > ul {

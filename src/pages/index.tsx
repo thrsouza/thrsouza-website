@@ -25,7 +25,7 @@ const Index: NextPage = () => {
         <meta property="og:url" content="https://thiagosouza.com/" />
         <meta
           property="og:image"
-          content="/assets/images/banner/thiagosouza-620x316.png"
+          content="/assets/images/banner-620x316.png"
         />
         <meta
           property="og:description"
@@ -48,7 +48,7 @@ const Index: NextPage = () => {
         />
         <meta
           name="twitter:image"
-          content="/assets/images/banner/thiagosouza-620x316.png"
+          content="/assets/images/banner-620x316.png"
         />
 
         <meta
