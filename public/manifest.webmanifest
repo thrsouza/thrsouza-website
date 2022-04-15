@@ -3,11 +3,11 @@
   "short_name": "Thiago Souza",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0d1117",
+  "background_color": "#0b0e14",
   "lang": "en",
   "scope": "/",
   "description": "Hello, I'm Thiago Souza! You are welcome if you want to know more about me, my experience, portfolio, etc.",
-  "theme_color": "#0d1117",
+  "theme_color": "#0b0e14",
   "orientation": "portrait",
   "icons": [
     {

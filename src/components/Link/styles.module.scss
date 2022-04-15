@@ -1,6 +1,6 @@
 .link {
-  background-color: var(--color-button-background-primary);
-  color: var(--color-button-foreground);
+  background-color: var(--color-button-background-1);
+  color: var(--color-text-2);
   text-decoration: none;
 
   &.small {
@@ -19,7 +19,7 @@
   }
 
   &.disabled {
-    background-color: var(--color-button-background-secundary);
+    background-color: var(--color-button-background-2);
     pointer-events: none;
   }
 }

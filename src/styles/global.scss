@@ -1,16 +1,16 @@
 :root {
-  --color-primary: #f0db4fff;
-  --color-secundary: #ffffffff;
+  --color-primary: hsl(52, 86%, 64%);
+  --color-success: hsl(148, 100%, 56%);
+  --color-error: hsl(354, 100%, 68%);
 
-  --color-background-primary: #0d1117ff;
-  --color-background-secundary: #161b22ff;
-
-  --color-button-foreground: #161b22ff;
-  --color-button-background-primary: #f0db4fff;
-  --color-button-background-secundary: #484f58ff;
-
-  --color-success: #22ff88ff;
-  --color-error: #ff5566ff;
+  --color-background-1: hsl(216, 28%, 6%);
+  --color-background-2: hsl(216, 22%, 12%);
+  --color-border-1: hsl(0, 0%, 100%);
+  --color-border-2: hsl(216, 22%, 12%);
+  --color-button-background-1: hsl(52, 86%, 64%);
+  --color-button-background-2: hsl(216, 10%, 32%);
+  --color-text-1: hsl(0, 0%, 100%);
+  --color-text-2: hsl(216, 22%, 12%);
 }
 
 * {
@@ -23,9 +23,9 @@
 }
 
 body {
-  background-color: var(--color-background-primary);
+  background-color: var(--color-background-1);
   font-family: "Rubik", sans-serif;
-  color: var(--color-secundary);
+  color: var(--color-text-1);
 }
 
 body::-webkit-scrollbar {
@@ -33,13 +33,13 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: var(--color-background-primary);
+  background: var(--color-background-1);
 }
 
 body::-webkit-scrollbar-thumb {
   border-radius: 1.25rem;
-  border: 0.25rem solid var(--color-background-primary);
-  background-color: var(--color-background-secundary);
+  border: 0.25rem solid var(--color-background-1);
+  background-color: var(--color-background-2);
 }
 
 body > div#__next {

@@ -3,8 +3,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-background-primary);
-  border-bottom: 1px solid var(--color-background-secundary);
+  background-color: var(--color-background-1);
+  border-bottom: 1px solid var(--color-border-2);
   padding: 0 1.5rem;
   position: fixed;
   width: 100%;
@@ -33,7 +33,7 @@
 
         > a {
           display: inline-block;
-          color: var(--color-secundary);
+          color: var(--color-text-1);
           text-decoration: none;
           font-size: 1rem;
           text-transform: uppercase;
@@ -49,7 +49,7 @@
     > button {
       display: none;
       background-color: transparent;
-      color: var(--color-secundary);
+      color: var(--color-text-1);
       padding: 0.5rem 0.25rem;
       cursor: pointer;
     }
@@ -62,7 +62,7 @@
       justify-content: flex-start;
       align-items: flex-start;
 
-      background-color: var(--color-background-primary);
+      background-color: var(--color-background-1);
       padding: 1rem 1.5rem;
       min-height: calc(100vh - 4.75rem);
       width: 100%;
@@ -84,13 +84,13 @@
         width: 100%;
 
         > li {
-          background-color: var(--color-background-secundary);
+          background-color: var(--color-background-2);
           background-image: linear-gradient(
             to right,
-            var(--color-background-secundary),
-            var(--color-background-primary)
+            var(--color-background-2),
+            var(--color-background-1)
           );
-          border-left: 0.25rem solid var(--color-background-secundary);
+          border-left: 0.25rem solid var(--color-border-2);
           margin: 0.35rem 0;
 
           a {
@@ -99,7 +99,7 @@
           }
 
           &[active] {
-            border-left: 0.25rem solid var(--color-secundary);
+            border-left: 0.25rem solid var(--color-text-1);
 
             > a {
               color: var(--color-primary);

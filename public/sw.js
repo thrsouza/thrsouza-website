@@ -1,5 +1,5 @@
-const SERVICE_WORKER_VERSION = "v0.1.0";
-const RUNTIME = "runtime";
+const SERVICE_WORKER_VERSION = "v0.1.1";
+const RUNTIME = `runtime-${SERVICE_WORKER_VERSION}`;
 const PRECACHE = `precache-${SERVICE_WORKER_VERSION}`;
 
 const PRECACHE_URLS = [
@@ -13,13 +13,6 @@ const PRECACHE_URLS = [
   "/assets/images/portfolio/royal-house-club-logo.svg",
   "/assets/images/profile.webp",
 ];
-
-// REMOVE OLD WORKBOX PRECACHES
-caches.keys().then((keys) => {
-  keys
-    .filter((key) => key.startsWith("workbox-precache-"))
-    .forEach((key) => caches.delete(key));
-});
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
