@@ -26,9 +26,9 @@ export default class RoyalHouseDocument extends Document {
           <meta name="google" content="notranslate" />
           <meta name="mobile-web-app-capable" content="yes" />
           <meta name="msapplication-config" content="none" />
-          <meta name="msapplication-TileColor" content="#0d1117" />
+          <meta name="msapplication-TileColor" content="#0b0e14" />
           <meta name="msapplication-tap-highlight" content="no" />
-          <meta name="theme-color" content="#0d1117" />
+          <meta name="theme-color" content="#0b0e14" />
 
           <link rel="apple-touch-icon" href="assets/icons/apple-icon-180.png" />
           <link
