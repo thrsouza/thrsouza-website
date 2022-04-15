@@ -1,4 +1,4 @@
-const SERVICE_WORKER_VERSION = "v0.1.1";
+const SERVICE_WORKER_VERSION = "v0.1.2";
 const RUNTIME = `runtime-${SERVICE_WORKER_VERSION}`;
 const PRECACHE = `precache-${SERVICE_WORKER_VERSION}`;
 
