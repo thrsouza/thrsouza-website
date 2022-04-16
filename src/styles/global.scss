@@ -13,6 +13,21 @@
   --color-text-2: hsl(216, 22%, 12%);
 }
 
+[data-theme="light"] {
+  --color-primary: hsl(52, 100%, 46%);
+  --color-success: hsl(148, 100%, 36%);
+  --color-error: hsl(354, 100%, 44%);
+
+  --color-background-1: hsl(216, 32%, 92%);
+  --color-background-2: hsl(216, 22%, 94%);
+  --color-border-1: hsl(216, 16%, 96%);
+  --color-border-2: hsl(216, 22%, 94%);
+  --color-button-background-1: hsl(52, 100%, 46%);
+  --color-button-background-2: hsl(216, 10%, 32%);
+  --color-text-1: hsl(216, 22%, 24%);
+  --color-text-2: hsl(216, 22%, 16%);
+}
+
 * {
   -webkit-tap-highlight-color: transparent;
   box-sizing: border-box;

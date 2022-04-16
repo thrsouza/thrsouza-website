@@ -8,4 +8,12 @@
   font-family: "Rubik", sans-serif;
   resize: none;
   outline: none;
+
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus,
+  &:-webkit-autofill:active {
+    box-shadow: 0 0 0 2rem hsl(0, 0%, 100%) inset !important;
+    -webkit-box-shadow: 0 0 0 2rem hsl(0, 0%, 100%) inset !important;
+  }
 }
