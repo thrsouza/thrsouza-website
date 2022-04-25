@@ -24,7 +24,7 @@ const socialData = <SocialDataType[]>[
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/thrsouza.sh",
+    href: "https://www.instagram.com/thrsouza.js",
     SvgIcon: SvgIcon.InstagramSvgIcon,
   },
 ];

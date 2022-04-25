@@ -2,24 +2,30 @@
   background-color: var(--color-button-background-1);
   color: var(--color-text-2);
   text-decoration: none;
+  font-family: "Tinos", serif;
 
   &.small {
     border-radius: 2rem;
-    padding: 1rem 1.5rem;
-    font-size: 0.92rem;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
     font-weight: 700;
   }
 
   &.large {
-    border-radius: 2rem;
-    padding: 1.25rem 3rem;
-    font-size: 1rem;
-    font-weight: 700;
     cursor: pointer;
+    border-radius: 0.25rem;
+    padding: 1.5rem;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  &:hover {
+    background-color: var(--color-button-background-2);
   }
 
   &.disabled {
-    background-color: var(--color-button-background-2);
+    background-color: var(--color-button-background-3);
     pointer-events: none;
   }
 }

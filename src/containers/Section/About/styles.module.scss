@@ -1,6 +1,4 @@
 .aboutSection {
-  background-color: var(--color-background-2);
-
   > div {
     > div.content {
       display: flex;
@@ -18,7 +16,7 @@
       }
 
       > div.description {
-        background-color: var(--color-background-1);
+        background-color: var(--color-background-2);
         border-radius: 0.5rem;
         width: calc(100% - 9rem - 4rem);
         padding: 2.25rem;
@@ -28,7 +26,7 @@
           position: absolute;
           border-style: solid;
           border-width: 1rem 1rem 1rem 0;
-          border-color: transparent var(--color-background-1);
+          border-color: transparent var(--color-background-2);
           margin-top: 1.5rem;
           margin-left: -3.25rem;
         }
